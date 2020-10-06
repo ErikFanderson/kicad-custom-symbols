@@ -9,4 +9,4 @@ kipart --overwrite --append --output zz_sockets.lib \
     PGA208/PGA208.csv
 
 kipart --overwrite --append --output zz_samtec_qsh_qth.lib \
-    samtec_qsh_qth/samtec_qsh_qth.csv
+    samtec_qsh_qth/samtec_qsh_qth_030.csv

@@ -50,12 +50,13 @@ if __name__ == '__main__':
 
     for i in range(208):
         string = f"{names_dict[str(i)]}, {names_dict[str(i)]}"
+        # Right and Left are switched from package to pinout for PGA20809
         if (i + 1) < 53:
-            string += ", right"
+            string += ", left"
         elif (i + 1) < 105:
             string += ", top"
         elif (i + 1) < 157:
-            string += ", left"
+            string += ", right"
         else:
             string += ", bottom"
         csv.append(string)
